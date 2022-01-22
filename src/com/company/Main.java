@@ -16,5 +16,10 @@ public class Main {
         InsertionSort.sort(insertionArr);
         System.out.println(Arrays.toString(insertionArr));
 
+        System.out.println("Merge sort");
+        int[] margeArr = {1, 12, -4, 5, 16, 1, 0, -13};
+        MergeSort.sort(margeArr, 0, margeArr.length - 1);
+        System.out.println(Arrays.toString(margeArr));
+
     }
 }
