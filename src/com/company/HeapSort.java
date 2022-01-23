@@ -14,7 +14,7 @@ import java.util.Arrays;
  * Finally, heapify the root of the tree.
  *
  * 3)Repeat step 2 while the size of the heap is greater than 1.
-*/
+ */
 
 public class HeapSort {
     public static void main(String[] args) {

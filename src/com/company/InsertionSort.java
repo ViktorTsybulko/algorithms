@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Arrays;
+
 /* Insertion sort
  * Algorithm complexity: O(n^2)
  *
@@ -18,8 +20,6 @@ package com.company;
  * shifts all the larger values up to make a space,
  * and inserts into that correct position.
  */
-
-import java.util.Arrays;
 
 public class InsertionSort {
     public static void main(String[] args) {

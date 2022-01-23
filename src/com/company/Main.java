@@ -26,5 +26,9 @@ public class Main {
         HeapSort.sort(heapArr);
         System.out.println(Arrays.toString(heapArr));
 
+        System.out.println("Quick sort");
+        int[] quickArr = {1, 12, -4, 5, 16, 1, 0, -13};
+        QuickSort.sort(quickArr,0,quickArr.length-1);
+        System.out.println(Arrays.toString(quickArr));
     }
 }
