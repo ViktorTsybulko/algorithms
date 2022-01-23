@@ -2,16 +2,16 @@ package com.company;
 
 import java.util.Arrays;
 
-/*  Merge sort
- *  Algorithm complexity: O(n*log n)
- *  Algorithm
- *  Conceptually, a merge sort works as follows:
+/* Merge sort
+ * Algorithm complexity: O(n*log n)
+ * Algorithm
+ * Conceptually, a merge sort works as follows:
  *
- *  1)Divide the unsorted list into n sublist,
- *  each containing one element (a list of one element is considered sorted).
+ * 1)Divide the unsorted list into n sublist,
+ * each containing one element (a list of one element is considered sorted).
  *
- *  2)Repeatedly merge sublist to produce new sorted sublist until there is only one sublist remaining.
- *  This will be the sorted list.
+ * 2)Repeatedly merge sublist to produce new sorted sublist until there is only one sublist remaining.
+ * This will be the sorted list.
  */
 
 public class MergeSort {

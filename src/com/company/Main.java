@@ -21,5 +21,10 @@ public class Main {
         MergeSort.sort(margeArr, 0, margeArr.length - 1);
         System.out.println(Arrays.toString(margeArr));
 
+        System.out.println("Heap sort");
+        int[] heapArr = {1, 12, -4, 5, 16, 1, 0, -13};
+        HeapSort.sort(heapArr);
+        System.out.println(Arrays.toString(heapArr));
+
     }
 }
